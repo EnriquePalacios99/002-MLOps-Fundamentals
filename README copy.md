@@ -3,6 +3,50 @@
 Este es un espacio de anotaciones de clase para profundizar los conocimientos de Python en el uso de MLOps 
 
 
+Podemos encontrar algunos ejemplos en esta apartado. En caso deseenis correrlo lo podemos realizar utilizando el archico .pynb en este enlace 
+
+
+
+```bash
+#print try some of these key terms out
+# Variable to store a value --- guardamos la variable 
+name = "John"  
+
+# Reassign variable -- se puede reasingnar una variable 
+name = "Jane" 
+
+# f-String prints variable -- utilizamos la sintaxis f
+print(f"Hello {name}")
+
+# Integer
+num = 10  
+
+# Float 
+dec = 10.5 
+
+# Boolean
+is_true = True
+
+# None 
+empty = None
+
+# If condition evaluates the Boolean
+if is_true:
+  print("Condition was true")
+
+# Else catches when if was False  
+else: 
+  print("Condition was false")
+  
+# Try block attempts this code
+try:
+  result = num / 0
+# Except catches the ZeroDivisionError   
+except ZeroDivisionError as e:
+  print("Cannot divide by 0")
+
+```
+
 - Lessons: https://madewithml.com/
 - Code: [GokuMohandas/Made-With-ML](https://github.com/GokuMohandas/Made-With-ML)
 
